@@ -1,6 +1,8 @@
 export const theme = {
     backgrounds: {
-        bgButton: '#2DDA93'
+        bgButton: '#2DDA93',
+        cardLinearLeft: '#61D2C4',
+        cardLinearRight: '#29D890',
     },
     colors: {
         WHITE: '#FFFFFF',
