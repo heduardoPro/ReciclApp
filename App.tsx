@@ -4,6 +4,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import SplashScreen from "./src/components/SplashScreen";
 import HomePage from "./src/screens/home";
 
+
 export default function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {

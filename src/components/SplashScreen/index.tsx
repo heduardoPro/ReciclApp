@@ -25,14 +25,14 @@ export default function SplashScreen() {
           marginTop: 120,
         }}
         entering={FadeIn.duration(800)}
-        exiting={FadeOutUp.duration(800)}
+        exiting={FadeOut.duration(500)}
       >
         <Image source={Logo} style={{ width: 280, height: 64 }} />
       </Animated.View>
       <Animated.View
         style={{ position: "relative" }}
         entering={FadeIn.duration(800)}
-        exiting={FadeOutDown.duration(800)}
+        exiting={FadeOut.duration(500)}
       >
         <Image
           source={ImageSplash}
